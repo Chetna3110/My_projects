@@ -1,0 +1,66 @@
+
+
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you?", "Is anyone there?", "Hey", "Hello"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        "context": [""]
+      },
+      
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["My pleasure", "You're welcome"],
+        "context": [""]
+      },
+      {
+        "tag": "query",
+        "patterns": ["What is big bang?"],
+        "responses": ["The Big Bang theory is the prevailing cosmological model for the observable universe."],
+        "context": [""]
+      },
+      
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey"],
+            "responses": ["Hello! How are you feeling today?", "Hi there! How's your day going?"],
+            "context": [""]
+          },
+          
+            {
+              "tag": "anxiety",
+              "patterns": ["I'm feeling low", "I am stressed"],
+              "responses": [
+                "I hear you. 😔 You're not alone. Can I help in any way?",
+                "Deep breaths! 🌿 You're doing great. Want to share more?"],
+                "context":[""]
+            },
+            
+          {
+            "tag": "depression",
+            "patterns": ["I'm feeling down", "I think I'm depressed", "I have no motivation"],
+            "responses": ["I'm here for you. You're not alone. Have you tried talking to someone about it?", "It might help to go outside or do something you enjoy. I'm always here to listen."],
+            "context": [""]
+          },
+          {
+            "tag": "motivation",
+            "patterns": ["I need motivation", "Give me a motivational quote", "I'm feeling unmotivated"],
+            "responses": ["You are stronger than you think. Keep pushing forward!", "Believe in yourself, and you will be unstoppable!", "Every small step counts. Keep going!"],
+            "context": [""]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you", "Goodbye"],
+            "responses": ["Take care! Remember, you are not alone.", "Goodbye! Stay strong and take care of yourself."],
+            "context": [""]
+          },
+          {
+
+          }
+        ]
+      }
+      
+    
+  
